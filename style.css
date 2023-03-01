@@ -1,0 +1,35 @@
+body {
+    background-color: teal !important;
+    font-family: 'Chakra Petch', sans-serif !important;
+}
+
+.heading {
+    font-size: 25px !important;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+    color: maroon !important;
+}
+
+.note {
+    font-size: 18px;
+    color: darkolivegreen !important;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    color: black;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
+
+canvas {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
