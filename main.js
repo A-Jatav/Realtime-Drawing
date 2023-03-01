@@ -26,7 +26,7 @@ function draw() {
     square(noseX, noseY, abs(floor(rightWristX - leftWristX)));
     triangle(leftEyeX, leftEyeY, rightEyeX, rightEyeY, noseX, noseY);
     document.getElementById("status_update_square").innerHTML = "The width and the height of the square is = " + abs(floor(rightWristX - leftWristX)) + "px";
-    document.getElementById("status_update_triangle").innerHTML = "The length of the sides are = " + abs(floor(leftEyeX - rightEyeX)) + "px, " + abs(floor(noseX - leftEyeX)) + "px, " + abs(floor(noseX - rightEyeX)) + "px";
+    document.getElementById("status_update_triangle").innerHTML = "The length of the sides of the triangle are = " + abs(floor(leftEyeX - rightEyeX)) + "px, " + abs(floor(noseX - leftEyeX)) + "px, " + abs(floor(noseX - rightEyeX)) + "px";
 };
 
 function modelLoaded() {
